@@ -1,0 +1,38 @@
+"""
+1. print()
+2. integer (int)
+3. integer, string, float
+4. 20
+5. answer = 42
+6. debugging 
+7. snake_case
+8. to explain the written code
+9. input()
+10. array
+11. type()
+12. str()
+13. converting
+14. ==
+15. False
+16. True
+17. if statement
+18. for loop
+19. while loop
+20. range() function contains 2 parameters that shows where to start and where to end
+21. if
+22. else is opposite condition of if, like:
+if x == 10
+else means that x != 10
+23. list
+24. 0 
+25. [2]
+26. slicing allows you to take part of list
+27. 1:5 
+28. it indicates how many elements should it skip
+29. variable
+30. argument
+31. upper()
+32. .append()
+33. def
+34. return
+"""
