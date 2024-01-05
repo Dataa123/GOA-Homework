@@ -1,0 +1,13 @@
+p.loser{
+    color:blueviolet;
+}
+p#good{
+    color:blue;
+}
+p#bad{
+    color:brown;
+}
+button{
+    margin-left: 50%;
+    
+}
