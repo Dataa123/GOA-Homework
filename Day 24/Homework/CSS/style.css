@@ -1,0 +1,13 @@
+#first{
+    background-color: rgb(166, 16, 200);
+}
+#second{
+    background-color: rgb(255, 0, 0);
+}
+p.green{
+    color: rgb(17, 17, 250);
+    
+}
+p{
+    color: rgb(0, 0, 0);
+}
