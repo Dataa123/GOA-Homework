@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+#header{
+    height: 1200px;
+}
+header p{
+    color:aliceblue;
+    font-size: 25px;
+    font-family: salsa;
+}
+nav a{
+    color:aliceblue;
+}
+nav li{
+    display: inline;
+    margin-right: 150px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li a{
+    text-decoration-line: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 120px;
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 100;
+}
+div.text {
+    text-align: center;
+    position: relative;
+    top: 400px;
+    right: 500px;
+}
+div.text h1{
+    font-size: 50px;
+    font-family: salsa;
+    font-weight: 500;
+}
+div.text h1 b{
+    font-weight: 700;
+}
+div.photo{
+    position: relative;
+    top: 100px;
+    left: 1200px;
+}
+div.photo img{
+    border-radius: 250px;
+}
+#contact{
+    position:relative;
+    left: 440px;
+    top: -120px;
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+    border: solid;
+    border-radius: 50px;
+}
+#contact p{
+    color:aliceblue;
+    text-align: center;
+    font-family: salsa;
+    font-weight: 600;
+    font-size: 40px;
+}
+#contact form{
+    text-align: center;
+    
+}
+form input{
+    font-size: 40px;
+}
+button{
+    font-size: 40px;
+}
