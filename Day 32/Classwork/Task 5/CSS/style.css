@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+#header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 120px;
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 100;
+}
+header p{
+    color:aliceblue;
+    font-size: 25px;
+    font-family: salsa;
+}
+.headera{
+    color: white;
+    font-family: salsa;
+    text-transform: uppercase;
+    display: inline;
+    margin-right: 150px;
+    text-decoration: none;
+    padding: 100px 100px;
+}
