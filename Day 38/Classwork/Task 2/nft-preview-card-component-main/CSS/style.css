@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    height: 70vh;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside{
+    border-radius: 15px;
+    height: 65.5vh;
+    width: 90%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.text h1{
+    color: white;
+    font-family: outfit;
+    font-weight: 500;
+    font-size: 28px;
+    padding: 20px 0;
+}
+
+.text .maintext{
+    color: hsl(214, 29%, 44%);
+    font-size: 18px;
+    font-family: outfit;
+    font-weight: 500;
+}
+
+.ends{
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%); 
+    font-family: outfit;
+    gap: 10px;
+}
+
+.daystext{
+    color: hsl(214, 49%, 65%);
+    font-family: outfit;
+}
+
+.endsplus{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.daysends{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: hsl(214, 49%, 65%);
+}
+
+.footers img{
+    width: 10%;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+hr{
+    width: 100%;
+    height: 1px;
+    background-color: hsl(214, 29%, 44%);
+    border: none; 
+}
+
+.footers{
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    padding: 0 10px;
+    gap: 20px;
+}
+
+.footertext{
+    color: hsl(214, 29%, 44%);
+    font-weight: 300;
+    font-family: outfit;
+}
+b{
+    color: white;
+    font-weight: 400;
+}
+
+.equilhover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.photo-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.equilhover:hover{
+    opacity: 0.5;
+}
