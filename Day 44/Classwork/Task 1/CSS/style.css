@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 35vh;
+    width: 100%;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item{
+    background-color: cyan;
+    border: 1px solid;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.item1{
+    grid-column: 1/4;
+}
+
+.item2{
+    grid-row: 2/4;
+}
+
+.item5{
+    grid-column: 2/4;
+}
