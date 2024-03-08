@@ -1,0 +1,7 @@
+body{
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
