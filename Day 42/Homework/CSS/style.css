@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgba(14, 0, 141, 1), rgb(0, 206, 206));
+    overflow-y: hidden;
+}
+
+nav{
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    
+}
+
+.dropdownservices{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownblog span{
+    font-family: outfit;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}
+
+.dropdownpages span{
+    font-family: outfit;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}
+
+.dropdownportfolio span{
+    font-family: outfit;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}
+
+.dropdownservices span{
+    font-family: outfit;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}
+
+.dropdown span{
+    font-family: outfit;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}
+
+.dropdowncontent{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.dropdowncontent a {
+    color: black;
+    font-family: outfit;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 0.4s;
+    
+}
+
+.first{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.last{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.dropdowncontent a:hover{
+    background-color: rgb(123,104,238);
+}
+
+.dropdown:hover .dropdowncontent{
+    display: block;
+}
+
+.dropdownservices:hover .dropdowncontent{
+    display: block;
+}
+
+.dropdownportfolio:hover .dropdowncontent{
+    display: block;
+}
+
+.dropdownpages:hover .dropdowncontent{
+    display: block;
+}
+
+.dropdownblog:hover .dropdowncontent{
+    display: block;
+}
+
+.dropicon{
+    position: relative;
+    top: 7px;
+    right: 5px;
+    filter: invert(100%);
+}
+
+.nodrop{
+    text-decoration: none;
+    font-family: outfit;
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top: 2px;
+}
+
+.techvio{
+    position: absolute;
+    left: 150px;
+    top: 33px;
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.itsupport{
+    cursor: pointer;
+    position: relative;
+    color: white;
+    background-color: rgb(123,104,238);
+    right: 320px;
+    font-family: outfit;
+    font-size: 15px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(123,104,238);
+    transition: 0.4s;
+}
+
+.itsupport:hover{
+    background-color: rgb(94, 69, 236);
+    box-shadow: 0 0 10px rgb(94, 69, 236);
+    transform: scale(1.1);
+}
+
+footer{
+    height: 90vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+
+}
+
+i{
+    cursor: pointer;
+    filter: invert(100%);
+    font-size: 25px;
+}
+
+.icons{
+    margin-left: 290px;
+    margin-top: 160px;
+    display: flex;
+    gap: 20px;
+}
+
+.facebook, .twitter, .instagram, .youtube{
+    border: 1px solid rgba(255, 255, 255, 0.548);
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+
+.facebook:hover, .twitter:hover, .instagram:hover, .youtube:hover{
+    background-color: rgb(123,104,238);
+    box-shadow: 0 0 10px rgb(123,104,238);
+    border: 0px;
+    transform: scale(1.1);
+}
+
+h1{
+    color: white;
+    font-family: outfit;
+    font-size: 60px;
+}
+
+.h1{
+    width: 480px;
+    margin-left: 290px;
+    margin-top: 20px;
+    line-height:1.5;
+}
+
+p{
+    color: white;
+    font-family: outfit;
+    font-size: 17px; 
+}
+
+.lorem{
+    width: 680px;
+    margin-left: 290px;
+    margin-top: 20px;
+}
+
+.ourservice{
+    color: rgb(62,87,208);
+    position: absolute;
+    z-index: 1;
+    margin-left: 290px;
+    margin-top: 40px;
+    background-color: white;
+    font-family: outfit;
+    font-size: 15px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(123,104,238);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.ourservice:hover{
+    background-color: rgb(62,87,208);
+    color: white;
+    box-shadow: 0 0 10px rgb(94, 69, 236);
+    transform: scale(1.1);
+    
+}
+
+.contactus{
+    color: white;
+    position: absolute;
+    z-index: 1;
+    margin-left: 490px;
+    margin-top: 40px;
+    background-color: rgb(62,87,208);
+    font-family: outfit;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(123,104,238);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.contactus:hover{
+    background-color: white;
+    color: rgb(62,87,208);
+    box-shadow: 0 0 10px rgb(94, 69, 236);
+    transform: scale(1.1);
+}
+
+.mainphoto img{
+    position: absolute;
+    z-index: 1;
+    left: 1050px;
+    bottom: 170px;
+}
