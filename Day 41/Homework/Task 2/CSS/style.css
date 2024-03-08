@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.half1, .half2{
+    position: absolute;
+    top: 35vh;
+    left: 85vh;
+    background-color: red;
+    height: 15rem;
+    width: 10rem;
+    border-radius: 5rem 5rem 2rem 2rem;
+    box-shadow: 0 0 35px red;
+}
+
+.half2{
+    left: 95vh;
+}
+
+.half2{
+    animation-name: pulse2;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse2{
+    0%{
+        transform: scale(1) rotate(45deg);
+    }
+    50%{
+        transform: scale(1.5) rotate(45deg);
+    }
+    100%{
+        transform: scale(1) rotate(45deg);
+    }
+}
+
+.half1{
+    animation-name: pulse1;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse1{
+    0%{
+        transform: scale(1) rotate(-45deg);
+    }
+    50%{
+        transform: scale(1.5) rotate(-45deg);
+    }
+    100%{
+        transform: scale(1) rotate(-45deg);
+    }
+}
